@@ -42,8 +42,8 @@ lendMeBookApp.controller('CategoryController',
                     {name: 'Pursuit of Happiness',owners:[{name:'Sarah', email:"sarah@gmail.com"}]}];
     }
     if(this.params.CategoryID === "Science") {
-      this.myBooks = [{name:'Molecules', owners:[{name:'Surya', email:"yaaa@gmail.com"},
-          {name:'Megan', email: "yaaa@gmail.com"}]},
+      this.myBooks = [{name:'Molecules', owners:[{name:'Surya', email:"surya@gmail.com"},
+          {name:'Megan', email: "megan@gmail.com"}]},
                     {name: 'Chemicals',owners:[{name:'Joe', email:"joe@gmail.com"},
                      {name:'Tom', email:"tom@gmail.com"}]},
                     {name: 'Atoms', owners:[{name:'Sarah', email:"sarah@gmail.com"}]}];
@@ -56,7 +56,11 @@ lendMeBookApp.controller('CategoryController',
                     {name: 'Hello World', owners:[{name:'Sarah', email:"sarah@gmail.com"}]}];
     }
     if(this.params.CategoryID === "Math") {
-      this.myBooks = [{name:'Algebra', owners:[{name:'Sharon', email:"sharon@gmail.com"}]}];
+      this.myBooks = [{name:'Algebra', owners:[{name:'Sharon', email:"sharon@gmail.com"}]},
+      {name: 'Probability', owners:[{name:'Mahfuza', email:"mahfuza@gmail.com"},
+       {name:'Surya', email:"surya@gmail.com"}]},
+      {name: 'Calculus', owners:[{name:'shayna', email:"shayna@gmail.com"}]}];
+
     }
 
   }])
